@@ -10,7 +10,7 @@ class RealtimeVisitorsWidget extends StatsOverviewWidget
 {
     use InteractsWithPlausible;
 
-    protected static ?string $pollingInterval = '30s';
+    protected ?string $pollingInterval = '30s';
 
     protected int|string|array $columnSpan = 'full';
 

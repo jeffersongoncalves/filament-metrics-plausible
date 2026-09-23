@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Metrics Plausible](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-plausible/1.x/art/jeffersongoncalves-filament-metrics-plausible.png)
+![Filament Metrics Plausible](https://raw.githubusercontent.com/jeffersongoncalves/filament-metrics-plausible/2.x/art/jeffersongoncalves-filament-metrics-plausible.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-metrics-plausible.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-plausible)
-[![Tests](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-plausible/tests.yml?branch=1.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-plausible/actions?query=workflow%3ATests+branch%3A1.x)
+[![Tests](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-metrics-plausible/tests.yml?branch=2.x&label=tests&style=flat-square)](https://github.com/jeffersongoncalves/filament-metrics-plausible/actions?query=workflow%3ATests+branch%3A2.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-metrics-plausible.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-metrics-plausible)
 [![License](https://img.shields.io/packagist/l/jeffersongoncalves/filament-metrics-plausible.svg?style=flat-square)](LICENSE.md)
 
@@ -30,7 +30,7 @@ Built on top of [jeffersongoncalves/laravel-metrics-plausible](https://github.co
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/filament-metrics-plausible:"^1.0"
+composer require jeffersongoncalves/filament-metrics-plausible:"^2.0"
 ```
 
 Publish the settings migrations and run them:
@@ -85,7 +85,7 @@ With `widgets(false)` you can still place the widget classes on any page yoursel
 ## Requirements
 
 - PHP 8.2 or higher
-- Filament 3.x
+- Filament 4.x
 
 ## Testing
 

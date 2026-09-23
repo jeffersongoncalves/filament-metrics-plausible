@@ -14,7 +14,7 @@ abstract class BreakdownTableWidget extends Widget
 {
     use InteractsWithPlausible;
 
-    protected static string $view = 'filament-metrics-plausible::widgets.breakdown-table';
+    protected string $view = 'filament-metrics-plausible::widgets.breakdown-table';
 
     protected int|string|array $columnSpan = 1;
 

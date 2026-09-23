@@ -2,19 +2,19 @@
 
 namespace JeffersonGoncalves\Filament\MetricsPlausible\Pages;
 
-use Filament\Forms\Components\Section;
 use Filament\Forms\Components\TextInput;
-use Filament\Forms\Form;
 use Filament\Pages\SettingsPage;
+use Filament\Schemas\Components\Section;
+use Filament\Schemas\Schema;
 use JeffersonGoncalves\MetricsPlausible\Settings\PlausibleSettings;
 
 class PlausibleMetricsSettingsPage extends SettingsPage
 {
     protected static string $settings = PlausibleSettings::class;
 
-    protected static ?string $navigationIcon = 'heroicon-o-chart-bar-square';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-chart-bar-square';
 
-    public static function getNavigationGroup(): ?string
+    public static function getNavigationGroup(): string|\UnitEnum|null
     {
         return __('filament-metrics-plausible::metrics-plausible.navigation_group');
     }
@@ -29,9 +29,9 @@ class PlausibleMetricsSettingsPage extends SettingsPage
         return __('filament-metrics-plausible::metrics-plausible.title');
     }
 
-    public function form(Form $form): Form
+    public function form(Schema $schema): Schema
     {
-        return $form
+        return $schema
             ->schema([
                 Section::make(__('filament-metrics-plausible::metrics-plausible.sections.api_configuration'))
                     ->schema([

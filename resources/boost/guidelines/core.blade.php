@@ -6,7 +6,7 @@ Plausible Analytics dashboard widgets for Filament with a settings page powered 
 
 @verbatim
 <code-snippet name="Install the plugin" lang="bash">
-composer require jeffersongoncalves/filament-metrics-plausible:"^1.0"
+composer require jeffersongoncalves/filament-metrics-plausible:"^2.0"
 php artisan vendor:publish --tag=metrics-plausible-settings-migrations
 php artisan migrate
 </code-snippet>
