@@ -14,9 +14,9 @@ Use this skill when:
 
 ## Package Overview
 
-- **Package**: `jeffersongoncalves/filament-metrics-plausible` (branch `2.x` for Filament 4.x)
+- **Package**: `jeffersongoncalves/filament-metrics-plausible` (branch `3.x` for Filament 5.x)
 - **Namespace**: `JeffersonGoncalves\Filament\MetricsPlausible`
-- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^2.0`, `jeffersongoncalves/laravel-metrics-plausible:^1.0`
+- **Dependencies**: `jeffersongoncalves/filament-analytics-core:^3.0`, `jeffersongoncalves/laravel-metrics-plausible:^1.0`
 - **Service Provider**: `JeffersonGoncalves\Filament\MetricsPlausible\PlausibleMetricsServiceProvider`
 
 ## Version Compatibility
