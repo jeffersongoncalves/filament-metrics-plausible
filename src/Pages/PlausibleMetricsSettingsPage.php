@@ -6,6 +6,7 @@ use Filament\Forms\Components\Section;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Pages\SettingsPage;
+use JeffersonGoncalves\FilamentAnalyticsCore\AbstractAnalyticsPlugin;
 use JeffersonGoncalves\MetricsPlausible\Settings\PlausibleSettings;
 
 class PlausibleMetricsSettingsPage extends SettingsPage
@@ -16,7 +17,7 @@ class PlausibleMetricsSettingsPage extends SettingsPage
 
     public static function getNavigationGroup(): ?string
     {
-        return __('filament-metrics-plausible::metrics-plausible.navigation_group');
+        return AbstractAnalyticsPlugin::navigationGroupFor('filament-metrics-plausible') ?? __('filament-metrics-plausible::metrics-plausible.navigation_group');
     }
 
     public static function getNavigationLabel(): string
